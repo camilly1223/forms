@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+<body class="bg-light">
+    <div class="container text-center bg-white">
+        <div class="row">
+            <div class="col bg-primary">
+                <nav class="navbar navbar-expand-lg bg-primary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">SISTEMA WEB</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="#">Cadrastrar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Consultar</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                &nbsp;
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-start">
+                <form>
+                    <div class="mb-3">
+                      <label for="txtnome" class="form-label">Nome:</label>
+                      <input type="text" class="form-control" id="Nome" aria-describedby="Nome:" placeholder=" Digite o seu nome completo">
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                          <label for="telefone" class="form-label">Telefone:</label>
+                          <input type="text" class="form-control" id="telefone" aria-describedby="telefone:" placeholder="(XX) 000000-0000">
+                        </div>
+                        <form>
+                                        <div class="mb-3">
+                                          <label for="txtorigem" class="form-label">Origem:</label>
+                                          <select class="form-select" aria-label="Origem">
+                                          <option value="1">Celular</option>
+                                          <option value="2">Fixo</option>
+                                          <option value="3">Whatsapp</option>
+                                          <option value="4">Facebook</option>
+                                          <option value="5">Instagram</option>
+                                          <option value="6">Google meu Negócio</option>
+                                          </select>
+                                        </div>
+                     
+                     <div class="mb-3">
+                        <label for="txtDatadocontato" class="form-label">Data do Contato:</label>
+                        <input type="text" class="form-control" id="Datadocontato" aria-describedby="Datadocontato" placeholder="Digite a data do agendamento">
+                      </div>
+                      <div class="mb-3">
+                        <label for="txtobservacao" class="form-label">Observação:</label>
+                        <textarea class="form-control" id="OBs" rows="3"></textarea>
+                      </div>
+                      <div class="mb-3">
+                      <button type="button" class="btn btn-primary">Cadastrar</button>
+                      </div>
+                </form>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
